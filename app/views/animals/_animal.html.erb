@@ -1,0 +1,19 @@
+<div id="<%= dom_id animal %>">
+  <p>
+    <strong>Name:</strong>
+    <%= animal.name %>
+  </p>
+
+  <p>
+    <strong>Age:</strong>
+    <%= animal.age %>
+  </p>
+
+  <% if animal.farm %>
+    <p>
+      <strong>Nombre Granja:</strong>
+      <%= animal.farm.name %>
+    </p>
+  <% end %>
+
+</div>
